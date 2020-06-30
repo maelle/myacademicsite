@@ -6,5 +6,5 @@
   HUGO_BUILDFUTURE = "true"
 
 [context.deploy-preview.environment]
-  command = "hugo --baseURL $DEPLOY_PRIME_URL"
+  command = "hugo -d public --baseURL $DEPLOY_PRIME_URL"
 
